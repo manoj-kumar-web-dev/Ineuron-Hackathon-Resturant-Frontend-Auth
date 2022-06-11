@@ -67,6 +67,7 @@ class App extends React.Component {
         <h2>Enter the OTP</h2>
         <form onSubmit={this.onSubmitOTP}>
         <className id="otp-button"/>
+        <input type="number" name="otp" placeholder="OTP Number" required onChange={this.handleChange}/>
           <button type="submit" className='submit'>Submit</button>
         </form>
       </div>
